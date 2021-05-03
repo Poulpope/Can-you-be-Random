@@ -1,14 +1,12 @@
 import pygame
 
-N_TRIALS = 100 # total number of trials
+N_TRIALS = 1000 # total number of trials
 MAX_RESPONSE_DELAY = 2000
 RESULT_FILE = 'Random_input.csv'
 
 
 def create_window():
     screen = pygame.display.set_mode((1280, 960))
-    # screen = pygame.display.set_mode((0, 0),
-    #                                  pygame.DOUBLEBUF | pygame.FULLSCREEN)
     pygame.mouse.set_visible(False)
     return screen
 
