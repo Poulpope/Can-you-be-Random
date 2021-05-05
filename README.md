@@ -22,3 +22,6 @@ There is an average of 67,45% good predictions for my 7 participants over the 10
 # Explanations
 Your fingers tend to repeat unconsciously certain patterns. My program on R keeps a database of every possible combination of 5 presses (this is a 5-gram) and count the number of iterations where this 5gram was followed by left or by right. So every time you press a key, the database is updated. To make a prediction, the program checks the 5gram corresponding to the last 5 presses, checks whether it is usually followed by left or right and decide which key press is most likely to follow. 
 The probability of the program guessing your inputs is usually around 67% suggesting that you really are not good at making random choices.
+
+# Previous coding experience and PCBS
+I learnt the basics of Python in my classe préparatoire but I only used it this year since then : I mostly used R in biology and Matlab during my internships. I liked the lectures of PCBS because they are very useful but I think that writing a whole script+posting it on github plus the lectures/exercises are a lot. 
