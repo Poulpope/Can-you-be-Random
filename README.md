@@ -9,11 +9,12 @@ You can download the main experiment PCBS_keypressing_task.py and run it on Pyth
 
 # Analyzing the results
 I took inspiration from Aaronson's oracle (https://www.expunctis.com/2019/03/07/Not-so-random.html).
-I gathered the data of several participants to show you what I mean when I say people cannot act randomly. I transfered the data on R where my script can analyze the results : it makes predictions about the keys you will press based on the keys you already pressed using a 5-gram paradigm. I collected the predictions and assessed the percentage of good predictions made over the last 50 keys you pressed across the 1000 trials. Here are the results for 7 participants :
+I gathered the data of several participants to show you what I mean when I say people cannot act randomly. I transfered the data on R where my script can analyze the results (PCBS_5gram_analysis.R) : it makes predictions about the keys you will press based on the keys you already pressed using a 5-gram paradigm. I collected the predictions and assessed the percentage of good predictions made over the last 50 keys you pressed across the 1000 trials. Here are the results for 7 participants :
 
 ![image](https://user-images.githubusercontent.com/81677999/117113370-a75e4f80-ad8a-11eb-9ad5-3a531b88148c.png)
 
 For one participant :
+
 ![image](https://user-images.githubusercontent.com/81677999/117114058-a1b53980-ad8b-11eb-888d-f16328fa3491.png)
 
 There is an average of 67,45% good predictions for my 7 participants over the 1000 trials : the program is better than randomness (50%) to predict your next choice.
