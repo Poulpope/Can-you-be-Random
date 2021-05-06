@@ -7,8 +7,6 @@ RESULT_FILE = 'Random_input.csv'
 
 def create_window():
     screen = pygame.display.set_mode((1280, 960))
-    # screen = pygame.display.set_mode((0, 0),
-    #                                  pygame.DOUBLEBUF | pygame.FULLSCREEN)
     pygame.mouse.set_visible(False)
     return screen
 
