@@ -1,6 +1,6 @@
 import pygame
 
-N_TRIALS = 100 # total number of trials
+N_TRIALS = 1000 # total number of trials
 MAX_RESPONSE_DELAY = 2000
 RESULT_FILE = 'Random_input.csv'
 
@@ -21,7 +21,7 @@ def display_instruction(screen, x, y):
     myfont = pygame.font.SysFont(pygame.font.get_default_font(), 40)
     line0 = myfont.render("In this experiment, you will be tested on your ability to be random.",1, pygame.Color('white'))
     line1 = myfont.render("You will have to press the left arrow key or the right arrow key", 1, pygame.Color('white'))
-    line2 = myfont.render("as randomly as you can for 100 trials.", 1, pygame.Color('white'))
+    line2 = myfont.render("as randomly as you can for 1000 trials.", 1, pygame.Color('white'))
     line3 = myfont.render("Press the space bar to start.", 1, pygame.Color('white'))
     screen.blit(line0, (x, y - 120))
     screen.blit(line1, (x, y - 60))
